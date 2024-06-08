@@ -1,0 +1,162 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mürekkep</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="category.css">
+    <script defer src="scripts.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/83dacd71d0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<header>
+    <div class="header-top">
+      <div class="logo-wrapper">
+    <a id="logo" href="index.html">mürekkep</a>
+  </div>
+            <div class="search-container">
+              <label for="search"></label>
+                <input type="search" class="search-field" type="text">
+                <button class="search-button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+              <div class="header-right">
+                <li><a href="sign-up.html" id="sign-in-sign-up">sign up</a></li>
+              <li><a href="login.html" id="sign-in-sign-up">sign in</a></li>
+              <a href="javascript:void(0);" class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+            </div>
+            <div class="header-bot">
+        <nav>
+            <ul id="mainMenu">
+                <li><a href="politics.html">politics</a></li>
+                <li><a href="history.html">history</a></li>
+                <li><a href="philosophy.html">philosophy</a></li>
+                <li><a href="science-fiction.html">science-fiction</a></li>
+                <li><a href="romantic.html">romantic</a></li>
+                <li><a href="fantasy.html">fantasy</a></li>
+                <li><a href="children.html">children</a></li>
+                <li><a href="story.html">story</a></li>
+                <li><a href="poetry.html">poetry</a></li>
+                <li><a href="biography.html">biography</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hamburger-navbar" id="hamburger-navbar">
+      <span class="close" onclick="closeMenu()">x</span>
+      <div class="hamburger-wrapper">
+      <div class="hamburger-search-container">
+        <label for="search"></label>
+          <input type="search" class="search-field" type="text" placeholder="Search">
+        </div>
+        <div class="barnav">
+          <ul id="mainMenu">
+            <li><a href="politics.html">politics</a></li>
+            <li><a href="history.html">history</a></li>
+            <li><a href="philosophy.html">philosophy</a></li>
+            <li><a href="science-fiction.html">science-fiction</a></li>
+            <li><a href="romantic.html">romantic</a></li>
+            <li><a href="fantasy.html">fantasy</a></li>
+            <li><a href="children.html">children</a></li>
+            <li><a href="story.html">story</a></li>
+            <li><a href="poetry.html">poetry</a></li>
+            <li><a href="biography.html">biography</a></li>
+        </ul>
+        </div>
+        <div class="sign-wrapper">
+          <li><a href="sign-up.html">sign up</a></li>
+          <li><a href="login.html">sign in</a></li>
+        </div>
+      </div>
+    </div>
+</header>
+
+<body>
+    <div class="wrapper">
+    <h1>Romantic Books</h1>
+    <div class="books-list">
+        <a href="books/a-court-of-silver-flames.html">
+            <div class="book">
+                <div class="book-img-container">
+                  <img src="img/book1.jpeg" alt="book-img" style="width:100%">
+                </div>
+                <p id="book-name">A Court of Silver Flames</p>
+            </a>
+                <a href="writers/sarah-j-mass.html">
+                <p id="writer-name">Sarah J. Maas</p>
+            </a>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>                      
+              </div>
+            <a href="books/outlander.html">
+              <div class="book">
+                <div class="book-img-container">
+                  <img src="img/book2.jpeg" alt="book-img" style="width:100%">
+                </div>
+                <p id="book-name">Outlander</p>
+            </a>
+                <a href="writers/diana-gabaldon.html">
+                <p id="writer-name">Diana Gabaldon</p>
+            </a>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>                      
+              </div>
+            <a href="books/it-happened-one-summer.html">
+              <div class="book">
+                <div class="book-img-container">
+                  <img src="img/book3.jpeg" alt="book-img" style="width:100%">
+                </div>
+                <p id="book-name">It Happened One Summer</p>
+                <a href="writers/tessa-bailey.html">
+                <p id="writer-name">Tessa Bailey</p>
+            </a>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>                     
+              </div>
+            <a href="books/ugly-love.html">
+              <div class="book">
+                <div class="book-img-container">
+                  <img src="img/book4.jpeg" alt="book-img" style="width:100%">
+                </div>
+                <p id="book-name">Ugly Love</p>
+                <a href="writers/colleen-hoover.html">
+                <p id="writer-name">Colleen Hoover</p>
+            </a>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>                      
+              </div>
+    </div>
+</div>
+</body>
+
+<footer>
+    <div class="footer-container">
+    <h3>About us</h3>
+    <p>mürekkep</p>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </div>
+  <div class="footer-end">
+    <p>made with 🦑  by emre tekneci</p>
+  </div>
+  </footer>
