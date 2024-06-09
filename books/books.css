@@ -343,7 +343,7 @@ img {
 }
 
 .detail-wrapper {
-width: 50vmax;
+width: 80vmax;
 }
 
 .detail-wrapper h2{
@@ -351,7 +351,8 @@ width: 50vmax;
   }
 
 #detail {
-    width: 40vmax;
+    width: 60%;
+    text-align: justify;
 }
 
 @media (max-width: 850px) {
@@ -366,6 +367,12 @@ display: block;
  }
 
 
+.detail-wrapper {
+  width: 100%;
+}
 
+#detail{
+  width: 100%;
+}
 
   }
