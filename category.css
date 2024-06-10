@@ -5,19 +5,29 @@
 
 .books-list {
     width: 100%;
-    display:grid;
+    display: grid;
     grid-auto-flow: column;
-    order:initial;
-    justify-content:left;
+    justify-content: left;
     margin: auto;
+    order: -1;
 }
 
 .book {
-    width: 200px;
+    width: 26vmin;;
     margin-right: 1em;
+}
+
+.book-img-container img {
+  height: 40vmin;
+  width: 16vmin;
+}
+
+@media (max-width: 850px) {
+  .books-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted minmax for smaller widths */
+    grid-auto-flow: row dense;
+    gap: 0.2em;
   }
 
-  .book-img-container img {
-    height: 300px;
-    width: 200px;
-  }
+}
